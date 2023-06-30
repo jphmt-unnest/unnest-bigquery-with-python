@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "unnest-bigquery-with-python"
+version = "0.1.0"
+description = "Script for creating a bigquery table"
+authors = ["jphmt-unnest <jimmy.phommarath@unnest.co>"]
+readme = "README.md"
+packages = [{include = "unnest_bigquery_with_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-cloud-bigquery = "^3.11.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
